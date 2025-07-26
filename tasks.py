@@ -1,33 +1,31 @@
 """" Robocorp Automation Certification Level 3"""
 
-from robocorp.tasks import task
-from robocorp import workitems
-from RPA.Browser.Selenium import Selenium
+import requests
 from RPA.HTTP import HTTP
 from RPA.JSON import JSON
 from RPA.Tables import Tables
+from robocorp import workitems
+from robocorp.tasks import task
 
 
 http = HTTP()
 json = JSON()
 table = Tables()
-browser = Selenium()
 
 TRAFFIC_JSON_FILE_PATH = "output/traffic_data.json"
 
 # JSON data keys
-COUNTRY_KEY = "SpatialDim"
-YEAR_KEY = "TimeDim"
-RATE_KEY = "NumericValue"
-GENDER_KEY = "Dim1"
 MAX_RATE = 5.0
+GENDER_KEY = "Dim1"
+YEAR_KEY = "TimeDim"
 BOTH_GENDERS = "BTSX"
+RATE_KEY = "NumericValue"
+COUNTRY_KEY = "SpatialDim"
 
 
 @task
 def produce_traffic_data():
     """Produces traffic data work items."""
-    print("produce")
 
     """ Downloads traffic data ."""
     http.download(
@@ -40,12 +38,6 @@ def produce_traffic_data():
     filtered_data = get_latest_data_by_country(filtered_data)
     payloads = create_work_item_payloads(filtered_data)
     save_work_item_payloads(payloads)
-
-
-@task
-def consume_traffic_data():
-    """Consumes traffic data work items."""
-    print("consume")
 
 
 def load_traffic_data_as_table():
@@ -85,6 +77,36 @@ def save_work_item_payloads(payloads):
     for payload in payloads:
         variables = dict(traffic_data=payload)
         workitems.outputs.create(variables)
+
+
+@task
+def consume_traffic_data():
+    """Consumes traffic data work items."""
+
+    for item in workitems.inputs.current.outputs:
+        traffic_data = item.payload["traffic_data"]
+        if len(traffic_data["country"]) == 3:
+            status, return_json = post_traffic_data_to_sales_system(traffic_data)
+            if status == 200:
+                item.done()
+            else:
+                item.fail(
+                    exception_type="APPLICATION",
+                    code="TRAFFIC_DATA_POST_FAILED",
+                    message=return_json["message"],
+                )
+        else:
+            item.fail(
+                exception_type="BUSINESS",
+                code="INVALID_TRAFFIC_DATA",
+                message=item.payload,
+            )
+
+
+def post_traffic_data_to_sales_system(traffic_data):
+    url = "https://robocorp.com/inhuman-insurance-inc/sales-system-api"
+    response = requests.post(url, json=traffic_data)
+    return response.status_code, response.json()
 
 
 # Main execution
