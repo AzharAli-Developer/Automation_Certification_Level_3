@@ -112,4 +112,3 @@ def post_traffic_data_to_sales_system(traffic_data):
 # Main execution
 produce_traffic_data()
 consume_traffic_data()
-"""my anme ia azhar ali"""
