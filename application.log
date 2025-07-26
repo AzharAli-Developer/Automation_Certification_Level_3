@@ -1,0 +1,166 @@
+2025-07-26 13:13:10,527 - INFO - Creating a new HTTP session
+2025-07-26 13:13:10,528 - INFO - Creating Session using : alias=rpasession_alias.httpsgithub.com, url=https://github.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0
+2025-07-26 13:13:11,944 - INFO - Loading JSON from file: output/traffic_data.json
+2025-07-26 13:13:12,593 - INFO - Created table: Table(columns=['Id', 'IndicatorCode', 'SpatialDimType', 'SpatialDim', 'TimeDimType', 'TimeDim', 'Dim1Type', 'Dim1', 'Dim2Type', 'Dim2', 'Dim3Type', 'Dim3', 'DataSourceDimType', 'DataSourceDim', 'Value', 'NumericValue', 'Low', 'High', 'Comments', 'Date', 'TimeDimensionValue', 'TimeDimensionBegin', 'TimeDimensionEnd'], rows=11640)
+2025-07-26 13:13:12,598 - INFO - good work
+2025-07-26 13:13:12,721 - INFO - Filtered -10339 rows
+2025-07-26 13:13:12,734 - INFO - Filtered -1056 rows
+2025-07-26 13:16:50,055 - INFO - Creating a new HTTP session
+2025-07-26 13:16:50,055 - INFO - Creating Session using : alias=rpasession_alias.httpsgithub.com, url=https://github.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0
+2025-07-26 13:16:51,013 - INFO - Loading JSON from file: output/traffic_data.json
+2025-07-26 13:16:51,672 - INFO - Created table: Table(columns=['Id', 'IndicatorCode', 'SpatialDimType', 'SpatialDim', 'TimeDimType', 'TimeDim', 'Dim1Type', 'Dim1', 'Dim2Type', 'Dim2', 'Dim3Type', 'Dim3', 'DataSourceDimType', 'DataSourceDim', 'Value', 'NumericValue', 'Low', 'High', 'Comments', 'Date', 'TimeDimensionValue', 'TimeDimensionBegin', 'TimeDimensionEnd'], rows=11640)
+2025-07-26 13:16:51,798 - INFO - Filtered -10339 rows
+2025-07-26 13:16:51,812 - INFO - Filtered -1056 rows
+2025-07-26 13:16:51,854 - INFO - Found 30 groups
+2025-07-26 13:16:51,857 - WARNING - Access to work items is only available from inside Control Room.
+Using development-time simulated work items.
+
+To learn more, see this guide: https://github.com/robocorp/robocorp/blob/master/workitems/docs/guides/local-development.md#using-a-custom-editor
+To suppress this message, set the environment variable `RC_WORKITEM_ADAPTER`.
+
+2025-07-26 13:16:51,857 - WARNING - Work items input path not defined, to simulate different input values set the
+environment variable `RC_WORKITEM_INPUT_PATH`.
+
+Generated input path: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-in/workitems.json
+
+2025-07-26 13:16:51,858 - WARNING - Work items output path not defined, to control the path of the
+generated output file set the environment variable `RC_WORKITEM_OUTPUT_PATH`.
+
+Generated output path: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+
+2025-07-26 13:16:51,859 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,860 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,860 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,861 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,861 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,862 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,862 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,863 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,863 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,864 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,864 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,865 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,865 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,866 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,866 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,867 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,867 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,868 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,868 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,869 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,869 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,870 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,871 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,871 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,872 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,873 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,873 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,874 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,875 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:16:51,876 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:03,872 - INFO - Creating a new HTTP session
+2025-07-26 13:17:03,872 - INFO - Creating Session using : alias=rpasession_alias.httpsgithub.com, url=https://github.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0
+2025-07-26 13:17:04,363 - INFO - Loading JSON from file: output/traffic_data.json
+2025-07-26 13:17:05,023 - INFO - Created table: Table(columns=['Id', 'IndicatorCode', 'SpatialDimType', 'SpatialDim', 'TimeDimType', 'TimeDim', 'Dim1Type', 'Dim1', 'Dim2Type', 'Dim2', 'Dim3Type', 'Dim3', 'DataSourceDimType', 'DataSourceDim', 'Value', 'NumericValue', 'Low', 'High', 'Comments', 'Date', 'TimeDimensionValue', 'TimeDimensionBegin', 'TimeDimensionEnd'], rows=11640)
+2025-07-26 13:17:05,150 - INFO - Filtered -10339 rows
+2025-07-26 13:17:05,164 - INFO - Filtered -1056 rows
+2025-07-26 13:17:05,205 - INFO - Found 30 groups
+2025-07-26 13:17:05,208 - WARNING - Access to work items is only available from inside Control Room.
+Using development-time simulated work items.
+
+To learn more, see this guide: https://github.com/robocorp/robocorp/blob/master/workitems/docs/guides/local-development.md#using-a-custom-editor
+To suppress this message, set the environment variable `RC_WORKITEM_ADAPTER`.
+
+2025-07-26 13:17:05,209 - WARNING - Work items input path not defined, to simulate different input values set the
+environment variable `RC_WORKITEM_INPUT_PATH`.
+
+Generated input path: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-in/workitems.json
+
+2025-07-26 13:17:05,210 - WARNING - Work items output path not defined, to control the path of the
+generated output file set the environment variable `RC_WORKITEM_OUTPUT_PATH`.
+
+Generated output path: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+
+2025-07-26 13:17:05,210 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,211 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,212 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,212 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,212 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,213 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,213 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,214 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,214 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,215 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,215 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,216 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,216 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,217 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,217 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,218 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,218 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,219 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,220 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,220 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,221 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,221 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,222 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,223 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,224 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,224 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,225 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,226 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,226 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:05,227 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:16,242 - INFO - Creating a new HTTP session
+2025-07-26 13:17:16,242 - INFO - Creating Session using : alias=rpasession_alias.httpsgithub.com, url=https://github.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0
+2025-07-26 13:17:16,724 - INFO - Loading JSON from file: output/traffic_data.json
+2025-07-26 13:17:17,412 - INFO - Created table: Table(columns=['Id', 'IndicatorCode', 'SpatialDimType', 'SpatialDim', 'TimeDimType', 'TimeDim', 'Dim1Type', 'Dim1', 'Dim2Type', 'Dim2', 'Dim3Type', 'Dim3', 'DataSourceDimType', 'DataSourceDim', 'Value', 'NumericValue', 'Low', 'High', 'Comments', 'Date', 'TimeDimensionValue', 'TimeDimensionBegin', 'TimeDimensionEnd'], rows=11640)
+2025-07-26 13:17:17,542 - INFO - Filtered -10339 rows
+2025-07-26 13:17:17,556 - INFO - Filtered -1056 rows
+2025-07-26 13:17:17,599 - INFO - Found 30 groups
+2025-07-26 13:17:20,638 - WARNING - Access to work items is only available from inside Control Room.
+Using development-time simulated work items.
+
+To learn more, see this guide: https://github.com/robocorp/robocorp/blob/master/workitems/docs/guides/local-development.md#using-a-custom-editor
+To suppress this message, set the environment variable `RC_WORKITEM_ADAPTER`.
+
+2025-07-26 13:17:20,643 - WARNING - Work items input path not defined, to simulate different input values set the
+environment variable `RC_WORKITEM_INPUT_PATH`.
+
+Generated input path: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-in/workitems.json
+
+2025-07-26 13:17:20,649 - WARNING - Work items output path not defined, to control the path of the
+generated output file set the environment variable `RC_WORKITEM_OUTPUT_PATH`.
+
+Generated output path: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+
+2025-07-26 13:17:20,652 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,670 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,674 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,679 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,683 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,689 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,695 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,699 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,702 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,706 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,711 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,715 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,720 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,725 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,730 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,737 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,748 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,754 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,764 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,777 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,793 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,808 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,823 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,840 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,857 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,875 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,889 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,903 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,917 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
+2025-07-26 13:17:20,942 - INFO - Saved output work items: /home/azhar-ali/Automation/Automation_Certification_Level_3/output/work-items-out/workitems.json
